@@ -10,13 +10,17 @@ license: MIT
 
 dependencies:
   lucky:
-    github: luckyframework/lucky
-    version: ~> 0.18
+    github: bcardiff/lucky
+    branch: bcardiff/use-fork
+    # github: luckyframework/lucky
+    # version: ~> 0.18
   habitat:
     github: luckyframework/habitat
     version: ~> 0.4.0
 
 development_dependencies:
   avram:
-    github: luckyframework/avram
-    branch: master
+    github: bcardiff/avram
+    branch: bcardiff/use-fork
+    # github: luckyframework/avram
+    # branch: master
